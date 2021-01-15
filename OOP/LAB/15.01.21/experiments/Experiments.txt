@@ -1,0 +1,9 @@
+Q. 1 Print table of a given number
+
+11:07
+
+Q. 2 Show prime numbers till 1000
+
+11:08
+
+Q.3 Calculate and print area of a Triangle, Square and Circle using different methods
