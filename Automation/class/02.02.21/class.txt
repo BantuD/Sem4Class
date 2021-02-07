@@ -1,0 +1,8 @@
+BRM--02.02.21
+Teacher: Ita Houftman
+1.)Learn Jenkins
+2.) go for screenshot
+3.) https://www.postgresql.org/download/
+4.) pgadmin tool 'google it'
+5.)detagrip 'tool'
+6.)Dbever 'tool'
