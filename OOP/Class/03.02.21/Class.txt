@@ -1,0 +1,8 @@
+OOP 03.02.21
+
+1.) Introduction to classes (complete)
+2.) A Closer Look at Methods and classes(Overloading)
+3.) Method Overloading
+4.) -> Default constructor not required untill you call it *note*
+5.) Method and costructor overloading and swapping of variables in constructor
+6.) Swapping of objects

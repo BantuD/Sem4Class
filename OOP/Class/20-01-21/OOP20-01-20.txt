@@ -1,0 +1,5 @@
+1.) if you creating perameterazied constructor then you have to creaete a default constructor too
+
+2.)if you're not creating a perameterazide constructor then you no need to create a 
+   default constructor it will automatically get created.
+

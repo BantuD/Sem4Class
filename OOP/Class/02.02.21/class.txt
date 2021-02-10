@@ -1,0 +1,6 @@
+OOP
+
+1. What is agregation
+2.Array Declaration
+3. Complete refrance to java (book) Literals,Array,Decimal,Hexadecimal,octa
+4. For loop each version
