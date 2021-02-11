@@ -1,0 +1,3 @@
+BRM Lab 11-02-21
+1.) Building the code->building jar file->testing file (CI)
+2.) 

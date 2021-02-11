@@ -1,0 +1,3 @@
+manage jenkins->manage plugins->maven integration
+
+//If you didn't get maven project option
