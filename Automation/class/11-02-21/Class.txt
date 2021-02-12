@@ -1,0 +1,6 @@
+BRM Class 11-02-21
+
+*Unit testing,Connect Database,with jenkins
+*Stress Testin in visual studio
+*Java loger (logging system)
+*Database connection string/link
