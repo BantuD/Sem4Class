@@ -1,8 +1,0 @@
-OOP Class 15-02-21
-
-1.) Inheritance (CJava 196)
- 
-Note: When you call 
-
-* parent can not access child's objects 
-*super can only send value to its parent not grandparent 10:47
