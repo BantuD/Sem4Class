@@ -1,0 +1,39 @@
+Notes:
+
+*Although a subclass includes all of the members of its superclass, it cannot access those
+members of the superclass that have been declared as private
+
+
+*You can only specify one superclass for any subclass that you create. Java does not
+support the inheritance of multiple superclasses into a single subclass. You can, as stated,
+create a hierarchy of inheritance in which a subclass becomes a superclass of another
+subclass. However, no class can be a superclass of itself.
+
+REMEMBER A class member that has been declared as private will remain private to its class. It is not
+accessible by any code outside its class, including subclasses.
+
+
+
+*1.)Overloading can occure b/w super class and subclass and also whithin the class 
+      But Overriding can only occure b/w super class and subclass
+2i.) For overloading any two methods withing in superclass or subclass or in super class and sub class
+    Have the same name but different perameters
+    i.) Number of perameters,
+    ii.) Sequence of perameters,
+    iii.) Type of peramters
+   At least there should be one present
+
+2ii.) For Overriding any two methods withing in superclass or subclass or in super class and sub class
+    Have the same name also same perameters
+    i.) Number of perameters,
+    ii.) Sequence of perameters,
+    iii.) Type of peramters
+    All of these should be matched (Screenshot (151).png)
+
+
+
+*RuntimePolymorphism:
+  Subclass's object variable can not be assigned as the referrence of superclass
+  But Superclass's object variable can be assigned as the referrence of subclass
+
+  This is called RuntimePolymorphism.      (Screenshot (154).png)
