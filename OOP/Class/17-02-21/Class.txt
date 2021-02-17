@@ -1,0 +1,9 @@
+OOP Class 17-02-21
+* Refferance variable and object are two totaly different things 
+   --Read about it
+Solution:
+https://stackoverflow.com/questions/9247886/what-is-difference-between-references-and-objects-in-java
+
+Just read the first answer to this post 
+
+And Lookafter all the Screenshots
