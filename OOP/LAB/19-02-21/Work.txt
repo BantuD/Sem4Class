@@ -1,0 +1,7 @@
+*1
+	1. Example for Inheritance
+	2. Constructor calling sequence
+
+*2
+
+

@@ -1,0 +1,71 @@
+
+class Student
+{
+    String name;
+    String school;
+    int rollNo;
+    int age;
+    Student()
+    {
+        System.out.println("default constructor");
+    }
+    Student(String n,String sn,int rn,int age)
+    {
+        System.out.println("Student class Constructor called");
+        name=n;
+        school=sn;
+        rollNo=rn;
+        this.age=age;
+    }
+}
+class Grade1 extends Student
+{
+    String sub1,sub2,sub3;
+    Grade1(String n,String sn,int rn,int age)
+    {
+        
+        super(n,sn,rn,age);
+        System.out.println("Grade1 class Constructor1 called");
+    }
+    Grade1(String s1,String s2,String s3)
+    {
+        
+        sub1=s1;
+        sub2=s2;
+        sub3=s3;
+        System.out.println("Grade1 class Constructor2 called");
+    }
+    
+}
+class SubsKnown extends Grade1
+{
+    SubsKnown(String n,String sn,int rn,int age)
+    {
+        super(n,sn,rn,age);
+        System.out.println("SubsKnown class Constructor1 called");
+    }
+    SubsKnown(String s1,String s2,String s3)
+    {
+        super(s1,s2,s3);
+        System.out.println("SubsKnown class Constructor2 called");
+    }
+}
+public class Main
+{
+    public static void main(String arg[])
+    {
+        SubsKnown S1 = new SubsKnown("Deves","HSS",1,21);
+        SubsKnown S2 = new SubsKnown("Maths","Hindi","English");
+        System.out.println("***Calling from Main***");
+        System.out.println("Name of student: "+S1.name);
+        System.out.println("Name of school: "+S1.school);
+        System.out.println("Roll No.: "+S1.rollNo);
+        System.out.println("Age : "+S1.age);
+        System.out.println("***Subjects known by student***");
+        System.out.println(S2.sub1);
+        System.out.println(S2.sub2);
+        System.out.println(S2.sub3);
+
+        
+    }
+}
