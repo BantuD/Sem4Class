@@ -1,0 +1,7 @@
+OOP Class 22-02-21
+1.) abstraction
+     => *A abstract class can have any abstract method which can be 0 or more.
+        *you can not create object of abtract class.
+        *if a class is "final" it can not be extended (just opposite of abstract
+        *if a method is "final" it can not be override
+	* if a data member is "final" you can not assign new value to it
