@@ -1,0 +1,3 @@
+OOP 23-02-21
+*Object class-> this class is super class of all the classes by default
+
