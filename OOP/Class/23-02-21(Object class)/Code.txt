@@ -1,0 +1,33 @@
+import java.lang.*;
+class A implements Cloneable
+{
+    int i,k;
+    String name;
+}
+class B implements Cloneable
+{
+    int i,k;
+    String name;
+   public Object clone() throws CloneNotSupportedException
+    {
+        return super.clone();
+    }
+}
+public class Main
+{
+    public static void main(String arg[]) throws CloneNotSupportedException
+    {
+        int j;
+        //boolean j;
+        B b1,b2;
+        b1 = new B();
+        b2=(B)b1.clone();
+        System.out.println(b1);
+        System.out.println(b2);
+        
+       // j=(boolean)b1.equals(b2); //doubt why cloned objects are not equal (false)
+        
+        j=(int)b1.hashCode(); //return the hashcode of the invoked object 
+        System.out.println(j);
+    }
+}

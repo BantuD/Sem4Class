@@ -1,0 +1,4 @@
+OOP 23-02-21
+*Object class-> this class is super class of all the classes by default
+*This means that a reference variable of type Object can refer to an object of any other class.
+(CJAVA 220)
