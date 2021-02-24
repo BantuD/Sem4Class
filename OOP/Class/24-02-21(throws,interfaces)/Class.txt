@@ -1,0 +1,12 @@
+OOP 24-02-21
+//Marker interface makes the class clonable
+
+	Interface does not have constructor
+	Data  member in interface are automatically final so you have to declare when you initialize then.
+	Whatever datamaber you are defining interface by default declares it as final (Naming rule) you declare datamamber in capital letters
+	also data members are static.
+	As you can say they are declared as static final <data type> variable_name
+	And methods are by default pbulic abstract <data type> fun_name()
+
+
+
