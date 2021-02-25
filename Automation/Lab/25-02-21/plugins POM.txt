@@ -1,0 +1,26 @@
+For site goal we need JUnit plugins 
+
+<build>
+
+ <pluginManagement>
+
+ <plugins>
+
+ <plugin>
+
+ 	<groupId>org.apache.maven.plugins</groupId>
+
+       <artifactId>maven-site-plugin</artifactId>
+
+       <version>3.7.1</version> 
+
+ </plugin>
+
+ </plugins>  
+
+ </pluginManagement>  
+
+ </build>
+
+Screenshot dependecies,plugins 
+goal(post site) will host globaly on site so anyone can see it (General public domain)
