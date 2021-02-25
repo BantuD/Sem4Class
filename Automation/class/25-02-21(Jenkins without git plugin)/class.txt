@@ -1,0 +1,4 @@
+BRM Lab 25-02-21
+JUnit testing with .NET and in Pycharm
+Junit for java Nunit for .NET and pythontest for python
+*Each product in jenkins write itself into a project folder so it's very important to backup that folder
