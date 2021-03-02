@@ -1,0 +1,7 @@
+OOP Class 02-03-21
+Interfaces questions (CJava 231)
+*Data members of an interface are static final and abstract methods are allowed only
+
+*you can implement interface at any class weather it as abstract class or not 
+
+chapter 3,4,5,6,7,8,9 (C-JAVA)
