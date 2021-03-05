@@ -1,0 +1,11 @@
+SEPM 
+PayBack period
+
+
+NPV = (Cash flows)/( 1+r)^t
+
+Cash flows= Cash flows in the time period
+
+r = Discount rate
+
+t = time period
