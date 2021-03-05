@@ -1,0 +1,5 @@
+BRM Class 04-03-21
+* Install a web server
+*Spring Framework
+*Streams(SQL) in java8
+*tom cat -> is a java webserver where you can send 

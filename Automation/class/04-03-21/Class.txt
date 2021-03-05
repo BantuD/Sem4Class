@@ -1,0 +1,6 @@
+BRM 04-03-21
+12th of march 3 to 4pm (Exam date) 1-2 modules will come in it
+
+*first complete module 2 then go to 1s 
+*POM file -> Project Object Model
+*Jar file is called Artifact
