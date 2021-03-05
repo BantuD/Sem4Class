@@ -1,0 +1,5 @@
+1.)Create two funtion 1 is sender another is reciever
+2.)now send an array of bits to the reciever through sender 
+3.) before passing arrya add 0 after first 5 1's
+
+0111111011110101001111110000001111110
