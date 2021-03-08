@@ -1,0 +1,8 @@
+OOP 08-02-21
+
+
+set classpath=%classpath%.;/path/  (only for that command prompt only)
+this will set class path for cmd to access packages and class
+
+*package inside another package
+*access specifier in next class
