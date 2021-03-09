@@ -1,0 +1,9 @@
+OOP 09-03-21
+*Access Specifiers
+https://www.javatpoint.com/access-modifiers
+*outside package protected is not accessible
+*private and default specifiers are not accessible for the subclass of different package
+*Private are not accessible in anyway expect call and get function
+*in the same package public,default,protected are accessible
+*Proctected is not accessible if class is not extending the dataclass but it is accessible
+ if the sub class is in the same package 
