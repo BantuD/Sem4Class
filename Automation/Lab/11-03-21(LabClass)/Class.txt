@@ -1,0 +1,6 @@
+BRM LabClass 11-03-21
+dependencies -> Central,rmote,local
+*required tags in pom
+*how maven look for repos if it's remote then have to give url
+*Scope of the goals in maven
+*Transitive dependencies
