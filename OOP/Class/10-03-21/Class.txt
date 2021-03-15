@@ -1,0 +1,8 @@
+OOP 10-03-21
+*inner classes (all concepts)
+https://www.javatpoint.com/member-inner-class
+
+*class inside the method can access the memebers of outer class of that method
+*Nested Interface
+
+*Rule->If the method is static then you can access it just by class_name
