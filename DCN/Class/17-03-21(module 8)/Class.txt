@@ -1,0 +1,10 @@
+DCN Class 17-03-21
+module 8
+* 8.4 How a Host Routes
+*till 8.6
+
+*perform nick topology
+R-0 209.165.200.225/24
+
+11:56 AM
+R-1 209.165.200.226/24
