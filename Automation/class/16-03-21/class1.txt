@@ -1,0 +1,4 @@
+BRM Class 16-03-21 (itay houftman)
+* Spring is framework build over java which boosts the speed of java deployment
+* how to create a webserver,how to deploy it,how to test it
+*spring boot->Crates file for you,creates projects for you,creates maven project for you
