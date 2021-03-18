@@ -1,0 +1,4 @@
+OOP 15-03-21
+Marker Interface-> Marker Interface are the interface which have no member inside
+Use of Marker Interface ->
+Clonable->
