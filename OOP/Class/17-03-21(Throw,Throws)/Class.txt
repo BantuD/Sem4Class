@@ -1,0 +1,4 @@
+OOP 17-03-21
+throw -statement (JavaC 222)
+throws - statement (Javac 223)
+ *after which you method1 you put throws its tha reposibiliy of that method2 which calling method1 to handle that error 
