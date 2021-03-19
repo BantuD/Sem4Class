@@ -1,0 +1,17 @@
+Webinar 18-03-21
+
+Git
+Jenkins
+Tdd bdd Junit xunit
+Sonar quobe 
+integration with jenkins
+Selenium webdriver 
+testing. 
+Container technologies
+Kubernetes. 
+
+*Needed to learn them most 
+
+[4:56 PM] gopal1409
+    
+gopal1409@gmail.com
