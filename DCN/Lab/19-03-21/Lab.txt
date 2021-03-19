@@ -1,0 +1,5 @@
+what osi model
+whai is different bw osi or tcp model
+what are the layers in osi book
+
+*till next thursday (OSI,TCP,CRC and humming code)
