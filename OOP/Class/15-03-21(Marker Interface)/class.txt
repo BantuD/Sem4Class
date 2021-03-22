@@ -1,0 +1,6 @@
+OOP 15-03-21
+Marker Interface-> Marker Interface are the interface which have no member inside
+Use of Marker Interface ->
+Clonable->
+
+https://www.javatpoint.com/marker-interface-in-java (22-03-21 Update)
