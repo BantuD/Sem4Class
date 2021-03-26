@@ -1,0 +1,10 @@
+1. Example showing checked and unchecked exception
+
+11:14 am
+2. Multiple and nested try catch
+
+11:14 am
+use of finally
+
+11:15 am
+3. using finally block , i mean
