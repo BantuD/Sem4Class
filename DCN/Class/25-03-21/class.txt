@@ -1,0 +1,3 @@
+*router on a stick
+*what is vlan
+*vlan inside the switch
