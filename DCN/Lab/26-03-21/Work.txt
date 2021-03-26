@@ -1,0 +1,2 @@
+Create a Cyclic Redundancy Check (CRC) code 
+https://www.youtube.com/watch?v=A9g6rTMblz4
