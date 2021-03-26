@@ -1,0 +1,4 @@
+BRM Class 25-03-21
+* Postman tool -> this is the tool we gonna use to test Rest API
+* Fidler
+*UUID 
