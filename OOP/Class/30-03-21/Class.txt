@@ -1,0 +1,20 @@
+OOP Class 30/03/2021
+Started Multithreading. (JavaC 233)
+*thread can be implemented or can be created using thread Class
+ Or there is a interface Runnable
+
+*Thread.currentThread(); -> returns you the object of the current thread.
+
+* if you using sleep(int) by the use of class name it will simply sleep that thread in which you using it.
+
+* getPriority() is the function which you can call through the reference or through the class name 
+  this funtion will return you the current priority of the thread.
+
+* In java 60 to 70% of the questions will come from Threads.
+
+* As it is always better to implement Runnable rather than extending Thread Class. (At time 36 mins)
+
+* Run() method -> Thread life cycle's execution phase depends on run() method.
+
+* We start the Thread using start() method with the object of MyThread Class 
+  What start will do is it will start the run() method inside the MyThread Class.

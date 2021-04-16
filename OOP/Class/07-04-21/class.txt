@@ -1,0 +1,4 @@
+OOP Class 07-04-21
+*Mutual Exclusion 
+
+*Inter thread communication   https://www.javatpoint.com/inter-thread-communication-example

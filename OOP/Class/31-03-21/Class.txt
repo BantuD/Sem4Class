@@ -1,0 +1,16 @@
+OOP Class 31-03-21
+
+*Doubt: Other Threads can run even when one thread throws an exception.
+
+* You can not start the same Thread until you stop the previous execution of that thread.
+
+*Main Thread is the Thread which starts before other threads and Main thread aslo the thread which finish after other threads.
+
+* isAlive() method.  Note: printing of a thread doesn't define it's alive or not.(VC 31 min)
+
+* Join Method :> All the child thread will get finshed and join in the Main Method. Or it insures that all the threads will end 
+  befor Main thread.
+  And Join() Method should be written in Try Block.
+
+*Concept of Priorities.
+ 

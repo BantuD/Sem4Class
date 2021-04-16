@@ -1,0 +1,5 @@
+OOP Class 06-04-21
+
+*Sychronization   https://www.javatpoint.com/synchronization-in-java#:~:text=Synchronization%20in%20java%20is%20the,to%20access%20the%20shared%20resource.
+
+*Sychronizing Block

@@ -1,0 +1,150 @@
+import java.util.Scanner;
+class LowBalanceException extends RuntimeException
+{
+    
+	LowBalanceException(String s)
+	{
+		super(s); //Passing to default handler if nobody wil catch this exception
+	}
+}
+class AgeLimitException extends RuntimeException
+{
+	AgeLimitException(String s)
+	{
+		super(s); //Passing to default handler if nobody wil catch this exception
+	}
+}
+class BankAccount //Bank Class
+{
+  int aGe;
+  String acNo;
+  double baLance=100000;
+  double aMnt;
+  BankAccount(int aMnt,int aGe)
+  {
+    this.aMnt=aMnt;
+    this.aGe=aGe;
+    //acNo = "1234567 " + age.toSring();
+    
+  }
+  void withdraw() throws AgeLimitException,LowBalanceException
+  {
+      if(aMnt>10000 && aGe<15)
+      {
+          throw new  AgeLimitException("You're under age");
+      }
+      else if(baLance<aMnt)
+      {
+          throw new LowBalanceException("You have insufficient balance");
+      }
+      else
+      {
+          baLance-=aMnt;
+          System.out.println("withdraw successful Current Balance is: "+baLance);
+      }
+  } //End of withdraw
+  
+  void deposit()
+  {
+	  baLance+=aMnt;
+  }
+  
+}
+public class Bank
+{
+     public static void main(String arg[])
+     {
+         int i,amount,j;
+         Scanner sc = new Scanner(System.in);
+         
+         System.out.println("Chose one account:");
+         System.out.println("1. Denis 10\n2.Robert 25\n3.Jerry 45");
+         i = sc.nextInt();
+         switch(i)
+         {
+         case 1:
+         {
+        	 System.out.println("Enter your choice: ");
+        	 System.out.println("1. withdraw\n2.deposit ");
+        	 j=sc.nextInt();
+        	 if(j==1)
+        	 {
+        	     System.out.println("Enter amount to withdraw: ");
+        	     amount=sc.nextInt();
+        	     System.out.println("Debug 2");
+        	     BankAccount BA = new BankAccount(amount,10);
+        	     System.out.println("Debug 1");
+        	     BA.withdraw();
+        	     
+        	 }
+        	 else if(j==2)
+        	 {
+        	     System.out.println("Enter amount to deposit: ");
+        	     amount=sc.nextInt();
+        	     BankAccount BA = new BankAccount(amount,10);
+        	     BA.deposit();
+        	 }
+        	 else
+        	 {
+        	     System.out.println("Invalid input");
+        	 }
+         }
+         break;
+         case 2:
+         {
+        	 System.out.println("Enter your choice: ");
+        	 System.out.println("1. withdraw\n2.deposit ");
+        	 j=sc.nextInt();
+        	 if(j==1)
+        	 {
+        	     System.out.println("Enter amount to withdraw: ");
+        	     amount=sc.nextInt();
+        	     BankAccount BA = new BankAccount(amount,25);
+        	     BA.withdraw();
+        	     
+        	 }
+        	 else if(j==2)
+        	 {
+        	     System.out.println("Enter amount to deposit: ");
+        	     amount=sc.nextInt();
+        	     BankAccount BA = new BankAccount(amount,25);
+        	     BA.deposit();
+        	 }
+        	 else
+        	 {
+        	     System.out.println("Invalid input");
+        	 }
+        	
+         }
+         break;
+         case 3:
+         {
+        	 System.out.println("Enter your choice: ");
+        	 System.out.println("1. withdraw\n2.deposit ");
+        	 j=sc.nextInt();
+        	 if(j==1)
+        	 {
+        	     System.out.println("Enter amount to withdraw: ");
+        	     amount=sc.nextInt();
+        	     BankAccount BA = new BankAccount(amount,45);
+        	     BA.withdraw();
+        	     
+        	 }
+        	 else if(j==2)
+        	 {
+        	     System.out.println("Enter amount to deposit: ");
+        	     amount=sc.nextInt();
+        	     BankAccount BA = new BankAccount(amount,45);
+        	     BA.deposit();
+        	 }
+        	 else
+        	 {
+        	     System.out.println("Invalid input");
+        	 }
+        	
+         }
+         break;
+         } //end swithc
+         
+     } //End of main method
+}

@@ -1,0 +1,3 @@
+1.-> if the exception is occuring then its simply throwing the control to the catch block then how it is able to print the numbers accourding to the time
+
+1.2-> try block won't run for each value of i why this so ?

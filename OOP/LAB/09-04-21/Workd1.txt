@@ -1,0 +1,9 @@
+OOP Lab
+* Create One exception class for LowBalanceException
+*Create another Class for age of Withdraw AgeWithdrawException
+
+*Take input of the account from which to want to withdraw or deposite 
+* There will be three accounts
+ 1. Less than 15
+ 2. less than 30
+ 3. greater or equals to 30 

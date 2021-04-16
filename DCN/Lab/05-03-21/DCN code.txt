@@ -1,0 +1,116 @@
+#include<stdio.h>
+void sender(int ar[])
+{
+    int i,flag=0,count=0,j,temp;
+    int arr2[39];
+
+for (i=0; i <8; i++)
+    {
+        arr2[i]=ar[i];
+    }
+
+for(i=8;i<23;i++)
+{
+  if(ar[i]==0&&ar[i+1]==1&&ar[i+2]==1&&ar[i+3]==1&&ar[i+4]==1&&ar[i+5]==1&&ar[i+6]==1&&ar[i+7]==0)
+  {
+
+    for(j=i;j<i+6;j++)
+    {
+
+        arr2[j]=ar[j];
+    }
+    arr2[i+6]=9;
+    for(j=i+6;j<i+8;j++)
+    {
+        arr2[j+1]=ar[j];
+    }
+
+   i=j;
+  }
+  else
+  {
+      arr2[i]=ar[i];
+  }
+}
+for (i=23;i<38; i++)
+    {
+        arr2[i+1]=ar[i];
+    }
+   printf("\n");
+   printf("Senders code:    ");
+   for (i=0;i<37;i++)
+    {
+        printf(" %d", arr2[i]);
+    }
+
+ reciever(arr2);
+
+}
+void reciever(int ar[])
+{
+  int i,flag=0,count=0,j,temp;
+    int arr2[39];
+
+for (i=0; i <8; i++)
+    {
+        arr2[i]=ar[i];
+    }
+    printf("\n");
+
+
+for(i=8;i<23;i++)
+{
+  if(ar[i]==0 && ar[i+1]==1 && ar[i+2]==1 && ar[i+3]==1 && ar[i+4]==1 && ar[i+5]==1 && ar[i+6]==9 && ar[i+7]==1 && ar[i+8]==0)
+  {
+    for(j=i;j<i+6;j++)
+    {
+        arr2[j]=ar[j];
+    }
+    for(temp=i+6;temp<=i+8;temp++)
+    {
+        arr2[temp]=ar[temp+1];
+    }
+
+   i=j;
+  }
+  else
+  {
+      arr2[i]=ar[i];
+  }
+
+
+}
+
+for (i=23;i<37; i++)
+    {
+        arr2[i]=ar[i+1];
+    }
+
+printf("\n");
+printf("Receiver's Code: ");
+for (i=0; i<37; i++)
+    {
+        printf(" %d",arr2[i]);
+    }
+
+}
+
+int main()
+{
+
+    FILE *myFile;
+    myFile = fopen("DCN.txt", "r");
+
+    //read file into array
+    int numberArray[38];
+    int i;
+
+    for (i = 0; i < 37; i++)
+    {
+        fscanf(myFile, "%1d", &numberArray[i]);
+    }
+
+    sender(numberArray);
+
+return 0;
+}

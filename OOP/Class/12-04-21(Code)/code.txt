@@ -1,0 +1,37 @@
+import java.lang.String;
+public class TEST
+{
+	public static void main(String arg[])
+	{
+		int prev,temp;
+		String names="rajul dubey.  rakhi dubey. ranu dubey."+
+		              "I'm the one. so fucking close";
+		char ch[]=names.toCharArray();
+		temp=(int)ch[0];
+		if(temp>=97)
+		{
+		ch[0]=(char)(temp-32);
+		}
+		prev=(int)ch[0];
+		
+		for(int i=0;i<ch.length;i++)
+		{
+	     temp=(int)ch[i];
+	     
+		 if(prev==46 && (temp<=122 && temp>=97))
+		 {
+			 ch[i]=(char)(temp-32);
+		 }
+	     if(temp!=32)
+	     {
+	    	 prev=temp;
+	     }
+		}
+		
+	//Printing the array
+		for(int i=0;i<ch.length;i++)
+		{
+			System.out.print(ch[i]);
+		}
+	}
+}
